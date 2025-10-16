@@ -1,0 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+button {
+  margin: 200px;
+  width: 200px;
+  height: 100px;
+  border-top: 10px solid red;
+  border-right: 10px dotted purple;
+  border-bottom: 10px double green;
+  border-left: 10px groove blue;
+}
