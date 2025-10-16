@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+div {
+  display: flexbox;
+  display: flex;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  color: white;
+}
+.change-color {
+  margin: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.change-color:hover {
+  margin: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(107, 82, 82);
+}
+
+.grow {
+  margin: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+.grow:hover {
+  margin: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(202, 202, 133);
+  transition: 2s;
+  transform: scale(1.2);
+}
+.shrink {
+  margin: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: greenyellow;
+}
+.shrink:hover {
+  margin: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(29, 94, 4);
+  transition: 2s;
+  transform: scale(0.8);
+}
+
+.rotate {
+  margin: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(121, 121, 167);
+}
+.rotate:hover {
+  margin: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(177, 56, 167);
+  transition: 2s;
+  transform: rotate(45deg);
+}
+
+.sqr-circle {
+  margin: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: blueviolet;
+}
+.sqr-circle:hover {
+  margin: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+  transition: 2s;
+  border-radius: 50%;
+}
+
+.insert-border {
+  margin: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: gold;
+}
+
+.insert-border:hover {
+  margin: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(252, 165, 3);
+  border: 10px solid gray;
+  transition: 2s;
+}
